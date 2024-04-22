@@ -1,10 +1,11 @@
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 50vh;
+  height: 20vh;
   display: flex;
   font-family: Brutal Font Pro;
   font-size: 6rem;
@@ -19,4 +20,18 @@
 .App-body{
   margin: 0;
   background-color: brown;
+  height: 100vh;
+
+  .flex-grid {
+    display: flex;
+  }
+  .col {
+    flex: 1;
+  }
+
+  .versus{
+    font-family: Brutal Font Pro;
+    font-size: 4rem;
+  }
+
 }
